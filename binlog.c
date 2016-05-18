@@ -318,7 +318,7 @@ void bl_do_edit_message (struct tgl_state *TLS, tgl_message_id_t *id, tgl_peer_i
   }
 
   if (to_id) {
-    assert (flags & 0x10000);
+    /* assert (flags & 0x10000); */
     M->to_id = *to_id;
   }
 
